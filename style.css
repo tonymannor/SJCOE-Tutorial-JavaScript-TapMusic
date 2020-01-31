@@ -9,11 +9,6 @@ body {
   font-family: "Raleway", sans-serif;
   
 }
-.btn {
-  height: 150px;
-  width: 150px;
-  margin: 10px;
-}
 
 .app {
   min-height: 60vh;
