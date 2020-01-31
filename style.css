@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  
+}
+.btn {
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+}
+
+.app {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 50px 0px 30px 0px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+header p {
+  font-size: 25px;
+  color: white;
+}
+
+.pads {
+  width: 100%;
+
+}
+.pads > div {
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+  border-radius: 10%;
+
+  flex: 1;
+}
+.poo > div {
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+  border-radius: 10%;
+  background-repeat: no-repeat;
+  background-size: 150px 150px;
+  flex: 1;
+}
+.pad1 {
+  background: #533600;
+}
+.pad1:hover {
+  background: linear-gradient(90deg, #915e01, #e0d209, #e08a09, #a0b623);
+  background-size: 400%;
+  animation: animate 8s linear infinite;
+}
+.pad2 {
+  background: #915e01;
+}
+.pad2:hover {
+  background: linear-gradient(90deg, #915e01, #e0d209, #a0b623, #e0d209);
+  background-size: 400%;
+  animation: animate 8s linear infinite;
+}
+.pad3 {
+  background: #9e630b;
+}
+.pad3:hover {
+  background: linear-gradient(90deg, #915e01, #e0d209, #e08a09, #a0b623);
+  background-size: 400%;
+  animation: animate 8s linear infinite;
+}
+.pad4 {
+  background: #e0d209;
+}
+.pad4:hover {
+  background: linear-gradient(90deg, #915e01, #e0d209, #e08a09, #a0b623);
+  background-size: 400%;
+  animation: animate 8s linear infinite;
+}
+.pad5 {
+  background-image: url("/images/poo.jpg");
+  
+}
+
+.pad6 {
+  background: #e08a09;
+} 
+.pad6:hover {
+  background: linear-gradient(90deg, #915e01, #e0d209, #e08a09, #a0b623);
+  background-size: 400%;
+  animation: animate 8s linear infinite;
+}
+.pad7 {
+  background: #eecb31;
+}
+.pad7:hover {
+  background: linear-gradient(90deg, #915e01, #e0d209, #e08a09, #a0b623);
+  background-size: 400%;
+  animation: animate 8s linear infinite;
+}
+.pad8 {
+  background: #a0b623;
+}
+.pad8:hover {
+  background: linear-gradient(90deg, #915e01, #e0d209, #e08a09, #a0b623);
+  background-size: 400%;
+  animation: animate 8s linear infinite;
+}
+.pad9 {
+  background: #e0b809;
+}
+.pad9:hover {
+  background: linear-gradient(90deg, #915e01, #e0d209, #e08a09, #a0b623);
+  background-size: 400%;
+  animation: animate 8s linear infinite;
+}
+.visual > div {
+  position: absolute;
+  bottom: 0%;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  transform: scale(1);
+  z-index: -1;
+}
+.plus{
+  background-image: url("images/poo.jpg");
+  width:150px;
+  height:150px;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+.plus.minus{
+  background-image: url("images/poo2.jpg");
+  width:150px;
+  height:150px;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+@keyframes animate
+{
+  0%
+  {
+    background-position: 0%;
+  }
+  100%
+  {
+    background-position: 400%;
+  }
+}
